@@ -1,4 +1,60 @@
 
+.logo-portada1 {
+	position: relative;
+}
+
+.logo-portada {
+	position: relative;
+	background-image: url("../img/bg-slide.jpg");
+	background-size: cover;
+	top: -10px;
+}
+
+.img-logo-portada {
+	position: absolute;
+	left: 35em;
+	margin: 2em;
+	width: 25em;
+	z-index: 10;
+}
+
+.div-zoom
+{
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.div-zoom:hover
+{
+    box-shadow: 0px 0px 5px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+
+.fondobolita  {
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
 .logo-menu {
 	width: 5em;
 }
@@ -19,25 +75,38 @@
 	position: absolute;
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
+	left: 0;
+	bottom: 0;
 }
 
 .img-offset {
 	position: relative;
-	background-color: #8B0077;
-	height: 100px;
+	background-image: url("../img/imp-offset.jpg");
+	background-size: cover;
+	height: 15em;
 }
 
 .img-acabados {
 	position: relative;
-	background-color: #B8032C;
-	height: 100px;
+	background-image: url("../img/imp-acabado.jpg");
+	background-size: cover;
+	height: 15em;
 } 
 
 .img-entregas {
 	position: relative;
-	background-color: #D78F00;
-	height: 100px;
+	background-image: url("../img/imp-envios.jpg");
+	background-size: cover;
+	height: 15em;
 }
+
+.img-web {
+	position: relative;
+	background-image: url("../img/imp-web.jpg");
+	background-size: cover;
+	height: 15em;
+}
+
 
 .text-publicidad {
 	color: white;
@@ -62,3 +131,29 @@ transition:filter 0.4s;
  
 -webkit-filter: grayscale(0);
 }
+
+ /*[ '#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423' ];*/
+
+ .color-1 {
+	color: #24619e;
+ }
+
+ .color-2 {
+	color: #24619e;
+ }
+
+ .color-3 {
+	color: #24619e;
+ }	
+
+  .color-3 {
+	color: #24619e;
+ }	
+
+ .img-llamanos{
+ 	position: absolute;
+ 	width: 20em;
+	top: 350px;
+	left: 100px;
+ 	z-index: 10;
+ }

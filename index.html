@@ -42,6 +42,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -57,7 +58,7 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    <img class="logo-menu" src="img/logo1.png" alt="">
+                    <!-- <img class="logo-menu" src="img/logo1.png" alt=""> -->
                 </a>
             </div>
 
@@ -71,10 +72,10 @@
                         <a href="#somos">Quienes Somos</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#servicios">Servicios</a>
+                        <a href="#servicios">Nuestros Servicios</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Portafolio</a>
+                        <a href="#portfolio">Portafolio</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contáctenos</a>
@@ -87,7 +88,13 @@
     </nav>
     
     <section>
-      <div class="slide-inicio">
+   
+      <div class="logo-portada1 hidden-md text-center">
+        <img class="animated zoomInDown img-logo-portada" src="img/logo.png" alt="">
+        <img class="animated pulse infinite  img-llamanos" src="img/llamanos-ya.png" alt="">
+      </div>
+      <div class="slide-inicio hidden-xs hidden-md">
+
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -100,8 +107,8 @@
               <img class="first-slide" src="img/slide/slide-01.jpg" alt="First slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Impresión Offset y Digital</h1>
-                  <p>Más que solo una impresión...</p>
+                  <h1 class="color-1">Impresión Offset y Digital</h1>
+                  <p class="color-2">Más que solo una impresión...</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Quienes Somos</a></p>
                 </div>
               </div>
@@ -110,8 +117,8 @@
               <img class="second-slide" src="img/slide/slide-02.jpg" alt="Second slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Diseño & Merchadising </h1>
-                  <p>Posiciona tu marca e impacta a tus clientes.</p>
+                  <h1 class="color-2">Diseño & Merchadising </h1>
+                  <p class="color-1">Posiciona tu marca e impacta a tus clientes.</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Acerca de nosotros</a></p>
                 </div>
               </div>
@@ -119,10 +126,10 @@
             <div class="item active">
               <img class="third-slide" src="img/slide/slide-03.jpg" alt="Third slide">
               <div class="container">
-                <div class="carousel-caption">https://zumografica.com/wp-content/themes/zumo/images/prueba4.jpg
-                  <h1>Papelería Corporativa</h1>
+                <div class="carousel-caption">
+                  <h1 class="color-3">Papelería Corporativa</h1>
                   <p>Branding e imagen corporativa</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Pregunta nuestros precios</a></p>
+                  <p class="color-2"><a class="btn btn-lg btn-primary" href="#" role="button">Pregunta nuestros precios</a></p>
                 </div>
               </div>
             </div>
@@ -137,25 +144,29 @@
           </a>
         </div>
       </div>
-
+      
         <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 img-offset">
-            
-         
+          <div class="col-xs-12 col-md-6  col-lg-3 img-offset div-zoom">
+                    
                 <p class="text-publicidad bg-opacidad text-center">Impresión </p>
              
 
           </div>
-          <div class="col-lg-4 img-acabados">
+          <div class="col-xs-12 col-md-6 col-lg-3 img-acabados div-zoom">
 
               <p class="text-publicidad bg-opacidad text-center">Acabados  </p>
 
           </div>
-          <div class="col-lg-4 img-entregas">
-             <p class="text-publicidad bg-opacidad text-center"> Entregas a todo el Perú</p>
+          <div class="col-xs-12 col-md-6 col-lg-3 img-web div-zoom">
+             <p class="text-publicidad bg-opacidad text-center"> Páginas Web</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 img-entregas div-zoom">
+          <p class="text-publicidad bg-opacidad text-center"> Entregas a todo el Perú</p>
+             
           </div>
         </div>
+
       </div>
 
 
@@ -336,7 +347,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="container">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -684,6 +695,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    <script src="js/sketch.js"></script>
+    <script src="js/particle.js"></script>
 
 </body>
 
