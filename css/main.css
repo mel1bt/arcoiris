@@ -1,18 +1,26 @@
 
+.titulo {
+	font-size: 3em;
+	color: 
+}
+
+.m-10{
+	margin-top: 3em;
+}
+
 .logo-portada1 {
 	position: relative;
 }
 
 .logo-portada {
 	position: relative;
-	background-image: url("../img/bg-slide.jpg");
+	background-image: url("../img/background.jpg");
 	background-size: cover;
-	top: -10px;
 }
 
 .img-logo-portada {
 	position: absolute;
-	left: 35em;
+	left: 45em;
 	margin: 2em;
 	width: 25em;
 	z-index: 10;
@@ -135,11 +143,11 @@ transition:filter 0.4s;
  /*[ '#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423' ];*/
 
  .color-1 {
-	color: #24619e;
+	color: #03449a;
  }
 
  .color-2 {
-	color: #24619e;
+	color: #b30f0f;
  }
 
  .color-3 {
@@ -151,9 +159,9 @@ transition:filter 0.4s;
  }	
 
  .img-llamanos{
- 	position: absolute;
- 	width: 20em;
-	top: 350px;
-	left: 100px;
- 	z-index: 10;
+    position: fixed;
+    width: 24em;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
  }

@@ -57,7 +57,7 @@ var particles = [];
 var pool = [];
 
 var demo = Sketch.create({
-	container: document.getElementById( 'somos' )
+	container: document.getElementById( '' )
 });
 
 demo.setup = function() {
