@@ -8,8 +8,11 @@
 	margin-top: 3em;
 }
 
-.logo-portada1 {
+.logo-portada-res {
 	position: relative;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	top: -30px;
 }
 
 .logo-portada {
@@ -19,11 +22,13 @@
 }
 
 .img-logo-portada {
-	position: absolute;
-	left: 45em;
-	margin: 2em;
-	width: 25em;
-	z-index: 10;
+	margin: 1em;
+	width: 15em;
+}
+
+.img-logo-portada-res {
+	margin: 5em 4em 4em 2em;
+    width: 85%;
 }
 
 .div-zoom
@@ -123,6 +128,7 @@
 .img-client {
   margin: 1em;
   width: 10em;
+  height: 5em;
   filter: grayscale(100%);
  
 -webkit-filter: grayscale(100%);
@@ -135,6 +141,7 @@ transition:filter 0.4s;
 .img-client:hover {
   margin: 1em;
   width: 10em;
+
   filter: grayscale(0);
  
 -webkit-filter: grayscale(0);
@@ -147,7 +154,7 @@ transition:filter 0.4s;
  }
 
  .color-2 {
-	color: #b30f0f;
+	color: #009534;
  }
 
  .color-3 {
@@ -159,9 +166,13 @@ transition:filter 0.4s;
  }	
 
  .img-llamanos{
-    position: fixed;
-    width: 24em;
+    position: absolute;
+    width: 15em;
+    top:5px;
     bottom: 0;
-    right: 0;
-    z-index: 20;
+    left: 0;
+    z-index: 40;
+ }
+ .textm-3{
+ 	padding: 3px;
  }
